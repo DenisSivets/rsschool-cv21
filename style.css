@@ -7,6 +7,12 @@ body {
     width: 1024px;
     margin: 0 auto;
 }
+
+section {
+    width: 100%;
+    padding: 20px 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,7 +36,7 @@ nav li {
     padding: 20px 0 20px 0;
     display: inline-block;
     font-size: 18px;
-    width: 14.2868%;
+    width: 16.6666%;
     text-align: center;
 }
 nav li:hover {
@@ -54,13 +60,19 @@ h2 {
     border-radius: 14px;
 }
 .about {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
+
+.about-left{
+}
+
 .about-right{
-    position: relative;
-    padding-left: 15%;
-    font-size: 18px;
+    width: 40%;
 }
+
 .about-right ul {
     list-style-type: none;
 }
@@ -69,32 +81,29 @@ h2 {
     letter-spacing: 0.04em;
 }
 .summary {
-    padding-left: 10%;
 }
 .skills {
-    padding-left: 10%;
 }
 .experience {
-    padding-left: 10%;
 }
 .experience li li {
     list-style-position: inside;
     padding: 12px 0 0 40px;
 }
 .education {
-    padding-left: 10%;
 }
 .english {
-    padding-left: 10%;
 }
 footer {
+    display: flex;
+    flex-direction: row;
     height: auto;
     margin-top: 3%;
-    padding: 10px;
+    padding: 15px;
     text-align: right;
     background-color: aquamarine;
 }
 
 footer ul {
-    list-style-type: none;  
+    list-style-type: none;
 }
