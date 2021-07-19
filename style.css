@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    padding-bottom: 12px;
+}
+header {
+    background-color: aquamarine;
+}
+h1 {
+    padding: 20px;
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    padding: 20px 0 20px 0;
+    display: inline-block;
+    font-size: 18px;
+    width: 14.2868%;
+    text-align: center;
+}
+nav li:hover {
+    background-color: aquamarine;
+}
+nav a {
+    color: black;
+}
+h2 {
+    padding: 36px;
+    text-align: center;
+}
+.wrapper{
+    width: 1024px;
+    margin: auto;
+}
+.photo {
+    margin-left: 25%;
+    width: 375px;
+    height: 500px;
+    border-radius: 14px;
+}
+.about {
+    display: flex;
+}
+.about-right{
+    position: relative;
+    padding-left: 15%;
+    font-size: 18px;
+}
+.about-right ul {
+    list-style-type: none;
+}
+.about-right li {
+    padding-bottom: 7%;
+    letter-spacing: 0.04em;
+}
+.summary {
+    padding-left: 10%;
+}
+.skills {
+    padding-left: 10%;
+}
+.experience {
+    padding-left: 10%;
+}
+.experience li li {
+    list-style-position: inside;
+    padding: 12px 0 0 40px;
+}
+.education {
+    padding-left: 10%;
+}
+.english {
+    padding-left: 10%;
+}
+footer {
+    height: auto;
+    margin-top: 3%;
+    padding: 10px;
+    text-align: right;
+    background-color: aquamarine;
+}
+
+footer ul {
+    list-style-type: none;  
+}
