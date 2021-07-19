@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    padding: 20px 30px 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    padding-bottom: 12px;
+}
+header {
+    background-color: aquamarine;
+}
+h1 {
+    padding: 20px;
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    padding: 20px 0 20px 0;
+    display: inline-block;
+    font-size: 18px;
+    width: 16.6666%;
+    text-align: center;
+}
+nav li:hover {
+    background-color: aquamarine;
+}
+nav a {
+    color: black;
+}
+h2 {
+    padding: 36px;
+    text-align: center;
+}
+.wrapper{
+    width: 1024px;
+    margin: auto;
+}
+.photo {
+    margin-left: 25%;
+    width: 375px;
+    height: 500px;
+    border-radius: 14px;
+}
+.about {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about h2 {
+    display: none;
+}
+
+.about-left{
+}
+
+.about-right{
+    width: 40%;
+}
+
+.about-right ul {
+    list-style-type: none;
+}
+.about-right li {
+    padding-bottom: 7%;
+    letter-spacing: 0.04em;
+}
+.summary {
+}
+.skills {
+}
+
+.code pre {
+    background-color: rgba(255,254,0,0.53);
+}
+.experience {
+}
+.experience li li {
+    list-style-position: inside;
+    padding: 12px 0 0 40px;
+}
+.education {
+}
+.english {
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 3%;
+    padding: 15px;
+    text-align: right;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style-type: none;
+}
