@@ -1,7 +1,7 @@
 # Denis Sivets
 
 ## Contacts
-Tel.: +37529-337-15-12
+Tel.: +37529 3371512
 
 Email: [sivkaden@gmail.com](mailto:sivkaden@gmail.com)
 
